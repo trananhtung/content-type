@@ -1,6 +1,6 @@
 [package]
 name = "content-type"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.81"
 description = "Parse and format HTTP Content-Type / media-type header values (RFC 9110). A faithful port of the content-type npm package. Zero dependencies, no_std."
