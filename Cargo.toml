@@ -1,0 +1,25 @@
+[package]
+name = "content-type"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "Parse and format HTTP Content-Type / media-type header values (RFC 9110). A faithful port of the content-type npm package. Zero dependencies, no_std."
+documentation = "https://docs.rs/content-type"
+repository = "https://github.com/trananhtung/content-type"
+homepage = "https://github.com/trananhtung/content-type"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["content-type", "media-type", "mime", "http", "header"]
+categories = ["parser-implementations", "web-programming", "no-std"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
